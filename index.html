@@ -6,7 +6,7 @@
     <meta name="viewport" content="width , initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.flipster/1.1.6/jquery.flipster.min.css">
+
 
 
     <title>Jquery Fipster demp</title>
@@ -14,7 +14,7 @@
 
 <body>
 
-    <div id="carousel">
+    <div id="flip-carousel">
         <ul class="flip-items">
             <li data-flip-title="imagen1">
                 <img width="400" height="400"
@@ -45,10 +45,11 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.flipster/1.1.6/jquery.flipster.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.flipster/1.1.6/jquery.flipster.min.js"></script>
 
     <script>
-        var carousel = $("#carousel").flipster({
+        var carousel = jQuery("#flip-carousel").flipster({
             style: 'carousel',
             spacing: -0.5,
             nav: false,
